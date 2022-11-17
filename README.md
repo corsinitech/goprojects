@@ -8,8 +8,9 @@ code I've written. Perhaps one day I will return to one of this little projects 
 make them suck a little less.
 
 ### Projects I've finished
--[x] gocalc - A simple command line calculator that provides.... calculations 
--[] gotactoe - Tictactoe in Go. Pretty self explanatory
+- [x] gocalc - A simple command line calculator that provides.... calculations 
+- [ ] gotactoe - Tictactoe in Go. Pretty self explanatory
+
 
 ### Projects I'd like to start/work on
 - Simple webserver to replace the crappy Nextjs implementation of [my personal site](https://corsini.io)
