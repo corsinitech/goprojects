@@ -77,7 +77,7 @@ func gameLoop(availableMoves []int, gameboard []string) {
 }
 
 func playerMovePlacement(playerPick int, gameboard []string) []string{
-    if gameboard[playerPick] == "x" || gameboard[playerPick] == "x\n"{
+    if gameboard[playerPick] == "x" || gameboard[playerPick] == "x\n" || gameboard[playerPick] == "c" || gameboard[playerPick] == "c\n"{
         fmt.Println("That move is already taken!")
         return gameboard        
     } else {
@@ -92,7 +92,7 @@ func playerMovePlacement(playerPick int, gameboard []string) []string{
 }
 
 func cpuMovePlacement(computerPick int, gameboard []string) []string{
-    if gameboard[computerPick] == "c" || gameboard[computerPick] == "c\n"{
+    if gameboard[computerPick] == "c" || gameboard[computerPick] == "c\n" || gameboard[computerPick] == "x" || gameboard[computerPick] == "x\n"{
         fmt.Println("That move is already taken!")
         return gameboard        
     } else {
