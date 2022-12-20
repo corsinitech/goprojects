@@ -1,0 +1,133 @@
+{
+	"InstrumentResponses": [
+		{
+			"RequestId": "index-US-DJIA",
+			"Matches": [
+				{
+					"Instrument": {
+						"Types": [
+							{
+								"Namespace": "http://service.marketwatch.com/ws/2007/05/symbology",
+								"Name": "Index",
+								"IsEmpty": false
+							}
+						],
+						"Debug": [
+							"http://system.marketwatch.com/mrkt/symbolid/1643",
+							"http://system.marketwatch.com/comstock/symbol/",
+							"http://system.marketwatch.com/varasto/varastoid/210598065",
+							"http://system.dowjones.com/dowjones/fuid/INDEX-DOW JONES GLOBAL-DJIA",
+							"http://system.marketwatch.com/varasto/entitlementid/1",
+							"http://system.marketwatch.com/dowjones/djid/343338",
+							"http://system.marketwatch.com/dylan/official/INDEX-US-DJIA"
+						],
+						"CommonName": "Dow Jones Industrial Average",
+						"Ticker": "DJIA",
+						"Cusip": null,
+						"Sedol": "1802001",
+						"Isin": "XC0009694206",
+						"Expires": null,
+						"Strike": null,
+						"Exchange": {
+							"Types": [
+								{
+									"Namespace": "http://service.marketwatch.com/ws/2007/05/symbology",
+									"Name": "Exchange",
+									"IsEmpty": false
+								}
+							],
+							"Debug": [
+								"http://system.marketwatch.com/mrkt/exchangeid/1357"
+							],
+							"CommonName": "Dow Jones Global",
+							"Ticker": "Dow Jones Global",
+							"CountryCode": "US",
+							"MarketCode": null,
+							"ExchangeDelay": 0,
+							"IsoCode": "Dow Jones Global"
+						},
+						"Issuer": null,
+						"Underlying": null
+					},
+					"UpdatedInstrument": null,
+					"Trading": null,
+					"AfterHoursTrading": null,
+					"Offers": null,
+					"TradingStatistics": null,
+					"Financials": null,
+					"BeforeHoursTrading": null,
+					"FinancialStatusIndicator": null,
+					"RealtimeTrading": null,
+					"RealTimeBeforeHoursTrading": null,
+					"RealTimeAfterHoursTrading": null,
+					"CompositeTrading": {
+						"Last": {
+							"Price": {
+								"Iso": "CALCULATED",
+								"Value": 33745.69
+							},
+							"Size": null,
+							"Time": "2022-11-18T17:32:19"
+						},
+						"Open": {
+							"Iso": "CALCULATED",
+							"Value": 33606.59
+						},
+						"High": {
+							"Iso": "CALCULATED",
+							"Value": 33827.94
+						},
+						"Low": {
+							"Iso": "CALCULATED",
+							"Value": 33540.64
+						},
+						"NetChange": {
+							"Iso": "CALCULATED",
+							"Value": 199.37
+						},
+						"Volume": 0.0,
+						"TradeCondition": null,
+						"ChangePercent": 0.5943125803366807447135781200,
+						"IsRealtime": false
+					},
+					"CompositeBeforeHoursTrading": null,
+					"CompositeAfterHoursTrading": null,
+					"IndustryClassification": null,
+					"FutureSpecific": null,
+					"BondSpecific": null,
+					"BlueGrassChannels": [
+						{
+							"Channel": "/zigman2/quotes/210598065/realtime",
+							"BlueGrassChannelType": {
+								"Namespace": "http://service.marketwatch.com/ws/2007/10/financialdata",
+								"Name": "DelayedChannel",
+								"IsEmpty": false
+							}
+						}
+					],
+					"TimeZoneInfo": null,
+					"DebugInfo": null,
+					"CurrencySpecific": null,
+					"DatafeedSpecificCurrency": null,
+					"Meta": null,
+					"RoncoSpecific": null,
+					"RelatedInstrumentInfo": null,
+					"PastCloses": null,
+					"MovingAverages": null,
+					"TradingRange": null,
+					"MutualFundSpecific": null,
+					"DialectSymbols": [
+						{
+							"Dialect": "Charting",
+							"Symbols": [
+								"INDEX/US/DOW JONES GLOBAL/DJIA"
+							]
+						}
+					],
+					"ReportingStatistics": null,
+					"IndexSpecific": null
+				}
+			]
+		}
+	]
+}

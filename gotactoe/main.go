@@ -68,7 +68,11 @@ func gameLoop(availableMoves []int, gameboard []string) {
 
         if checkPlayerWinCondition(gameboard) == false {
             gameLoop = false
-        } else if checkComputerWinCondition(gameboard) == false {
+        } else {
+            gameLoop = true
+        }
+
+        if checkComputerWinCondition(gameboard) == false {
             gameLoop = false
         } else {
             gameLoop = true
